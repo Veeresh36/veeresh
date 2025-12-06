@@ -1,6 +1,5 @@
 import React from 'react'
 import style from '../pages/contact.module.css'
-import '../../src/style.css'
 
 function cantact() {
     return (

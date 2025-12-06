@@ -1,5 +1,4 @@
 import style from '../pages/about.module.css'
-import audio from '../../public/audio.mp3'
 import profilePic from '../../public/aboutpers.jpg'
 import img1 from '../assets/techskills/01.png'
 import img2 from '../assets/techskills/02.png'

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import AppRoutes from './routees/approutes'
 
-import './src/style.css'
+import './style.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
