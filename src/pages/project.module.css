@@ -40,10 +40,6 @@
     justify-content: center;
 }
 
-.link{
-    cursor: pointer;
-}
-
 .prosBox {
     width: 100%;
     display: flex;

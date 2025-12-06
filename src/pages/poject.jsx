@@ -63,11 +63,11 @@ const Project = () => {
                             <h4>{item.title}</h4>
                             <p>{item.description}</p>
                             <div className={style.btns}>
-                              <a className={`btn btn-dark ${style.link}`} target='_blank' href={item.viewPro}>
+                              <a className={`btn btn-dark cursor-pointer ${style.link}`} target='_blank' href={item.viewPro}>
                                 View Project
                                 <i className="fa-solid fa-arrow-right"></i>
                               </a>
-                              <a className={`btn btn-danger ${style.link}`} target='_blank' href={item.getcode}>
+                              <a className={`btn btn-danger cursor-pointer ${style.link}`} target='_blank' href={item.getcode}>
                                 get code
                                 <i className="fa-solid fa-arrow-right"></i>
                               </a>
