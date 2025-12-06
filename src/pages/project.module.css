@@ -1,0 +1,151 @@
+.featured {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.subtitle {
+    color: rgb(0, 37, 244);
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper .title {
+    color: var(--clr-light);
+}
+
+.desc {
+    margin: 10px 0;
+}
+
+/* cards */
+
+.mainCards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.prosBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.item {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
+}
+
+/* The `.card` CSS block is styling a card element within a webpage. Here's a breakdown of what each
+property is doing: */
+.card {
+    max-width: 400px;
+    min-height: 450px;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    background-color: #fff;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #000;
+    text-align: start;
+    padding: 10px;
+    margin-top: -50px;
+    transition: 0.2s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: -10px 10px 15px -5px var(--clr-shadow);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card h4 {
+    font-size: 20px;
+}
+
+.card p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    margin-left: -4px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    background-color: var(--clr-rose);
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
+        0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--clr-rose);
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
+        0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+}
+
+@media (min-width: 768px) {}
