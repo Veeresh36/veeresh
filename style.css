@@ -48,22 +48,21 @@
     cursor: url(../src/assets/small_cursor.png) 0 0, auto !important;
 }
 
-a, button, .btn, input, label{
+a,
+button,
+.btn,
+input,
+label {
     cursor: url(../src/assets/hoverd_cursor.png) 0 0, auto !important;
 }
-
-
 
 html {
     scroll-behavior: smooth;
 }
 
-
-body{
+body {
     background-color: var(--clr-dark);
 }
-
-
 
 img,
 picture,

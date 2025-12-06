@@ -49,7 +49,7 @@ function about() {
             <div className={` container-fluid ${style.about}`} id='about'>
 
                 {/* about description */}
-                <div className={style.about_content}>
+                <div className={`${style.about_content} container`}>
                     <h2>About</h2>
                     <p><veeresh className='h6 text-danger'>Hi, I'm Veeresh — Full-Stack Web Developer (MERN & Python) + UI/UX Enthusiast</veeresh> <br /><br />
 

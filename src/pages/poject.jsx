@@ -1,18 +1,13 @@
 import React from 'react';
 import style from '../pages/project.module.css';
-import { Link } from 'react-router-dom'
 
 import p1 from '../assets/01.png'
-import p2 from '../assets/02.jpg'
 import p3 from '../assets/03.png'
-import p4 from '../assets/04.jpg'
-import p5 from '../assets/05.jpg'
-import p6 from '../assets/06.jpg'
 
 
 let projects = [
   {
-    title: 'Fyntra – Full-Stack Web Application Project',
+    title: 'Fyntra - Full-Stack Web Application Project',
     description: 'A full-stack application built with modern standards, reusable components, and optimized performance.',
     image: p1
   },
@@ -31,7 +26,7 @@ let projects = [
 const Project = () => {
   return (
     <>
-      <div className={`container-fluid ${style.featured}`} id='projects'>
+      <div className={`container ${style.featured}`} id='projects'>
         <h3 className={style.subtitle}>Recent Projects</h3>
 
         <div className={style.wrapper}>

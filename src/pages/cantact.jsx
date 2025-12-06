@@ -4,7 +4,7 @@ import style from '../pages/contact.module.css'
 function cantact() {
     return (
         <>
-            <div className={`${style.container}`} id='contact'>
+            <div className={`${style.container} container`} id='contact'>
                 <div className={style.contact_content}>
                     <h2 className={`${style.contact__title}`}>Get In Contact</h2>
                     <p className={`${style.contact__description}`}>Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open so feel free to reach out and I will get back to you as soon as possible.</p>
