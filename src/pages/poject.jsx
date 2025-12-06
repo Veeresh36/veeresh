@@ -21,11 +21,11 @@ let projects = [
     description: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Web Application Development',
     image: p3
   },
-  {
-    title: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Features',
-    description: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Web Application Development',
-    image: p2
-  }
+  // {
+  //   title: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Features',
+  //   description: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Web Application Development',
+  //   image: p2
+  // }
 ];
 
 const Project = () => {
