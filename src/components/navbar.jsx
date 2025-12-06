@@ -6,7 +6,7 @@ const Navbar = () => {
 
   // state for mobile nav
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
-  
+
   // state for theme
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") || "dark-mode"
