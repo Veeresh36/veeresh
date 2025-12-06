@@ -79,7 +79,7 @@ const Project = () => {
                     </div>
                 }
               </div>
-              < Link className={`${style.contact__btn}, ${style.btn} mt-5`} to="" target="_blank">Explore More</Link>
+              {/* < Link className={`${style.contact__btn}, ${style.btn} mt-5`} to="" target="_blank">Explore More</Link> */}
             </div>
           </div>
         </div>

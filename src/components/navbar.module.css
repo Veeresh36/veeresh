@@ -2,6 +2,8 @@ nav.lap>ul {
     display: none;
 }
 
+
+
 .header__bars {
     width: 30px;
     height: 30px;
@@ -10,7 +12,7 @@ nav.lap>ul {
     outline: none;
     color: var(--clr-light);
     z-index: 9999;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 10px;
 }
@@ -167,7 +169,7 @@ nav.lap>ul {
         outline: none;
         color: var(--clr-light);
         z-index: 9999;
-        position: absolute;
+        position: fixed;
         top: 15px;
         right: 15px;
     }
@@ -237,7 +239,7 @@ nav.lap>ul {
         outline: none;
         color: var(--clr-light);
         z-index: 9999;
-        position: absolute;
+        position: fixed;
         top: 20px;
         right: 20px;
     }

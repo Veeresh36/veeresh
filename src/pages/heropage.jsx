@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 function hero() {
     return (
         <>
-            <div className={`container-fluid ${style.hero}`}>
+            <div className={`container-fluid ${style.hero}`} id='home'>
                 <div className={style.hero}>
                     <div className={style.main}>
                         <Link to="/" style={{cursor: "pointer"}}><img src='./pers.jpg' alt="profile image" className={style.profile} /></Link>
