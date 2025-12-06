@@ -14,7 +14,9 @@ let projects = [
   {
     title: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Features',
     description: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Web Application Development',
-    image: p3
+    image: p3,
+    viewPro: "https://todo-app-mu-amber-38.vercel.app/",
+    getcode: "https://github.com/Veeresh36/Todo-app"
   },
   // {
   //   title: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Features',
@@ -59,11 +61,11 @@ const Project = () => {
                             <h4>{item.title}</h4>
                             <p>{item.description}</p>
                             <div className={style.btns}>
-                              <a className={`btn btn-dark ${style.link}`} href="#">
+                              <a className={`btn btn-dark ${style.link}`} target='_blank' href={item.viewPro}>
                                 View Project
                                 <i className="fa-solid fa-arrow-right"></i>
                               </a>
-                              <a className={`btn btn-danger ${style.link}`} href="#">
+                              <a className={`btn btn-danger ${style.link}`} target='_blank' href={item.getcode}>
                                 get code
                                 <i className="fa-solid fa-arrow-right"></i>
                               </a>
