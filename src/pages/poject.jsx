@@ -9,7 +9,9 @@ let projects = [
   {
     title: 'Fyntra - Full-Stack Web Application Project',
     description: 'A full-stack application built with modern standards, reusable components, and optimized performance.',
-    image: p1
+    image: p1,
+    viewPro: "https://fyntra-five.vercel.app/",
+    getcode: "https://github.com/Veeresh36/fyntra"
   },
   {
     title: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Features',
