@@ -54,7 +54,7 @@ const Navbar = () => {
               </svg>
             </button>
           </li>
-          <li><a href="" className={style.btn}>Resume</a></li>
+          <li><a href="./veeresh's ( CV ).pdf" target='_blanck' download={true} className={style.btn}>Resume</a></li>
         </ul>
 
         {/* Hamburger button */}

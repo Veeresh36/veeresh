@@ -7,25 +7,21 @@ import p3 from '../assets/03.png'
 
 let projects = [
   {
-    title: 'Fyntra - Full-Stack Web Application Project',
+    title: <>Full-Stack Web Application Project <span className='text-warning'>(FYNTRA)</span></>,
     description: 'A full-stack application built with modern standards, reusable components, and optimized performance.',
     image: p1,
     viewPro: "https://fyntra-five.vercel.app/",
     getcode: "https://github.com/Veeresh36/fyntra"
   },
   {
-    title: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Features',
-    description: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Web Application Development',
+    title: <>DAILY ROUTINE APP <span className="text-primary">(NOTED)</span></>,
+    description: 'A modern routine management app with task tracking and clean user experience.',
     image: p3,
     viewPro: "https://todo-app-mu-amber-38.vercel.app/",
     getcode: "https://github.com/Veeresh36/Todo-app"
-  },
-  // {
-  //   title: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Features',
-  //   description: 'Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Web Application Development',
-  //   image: p2
-  // }
+  }
 ];
+
 
 const Project = () => {
   return (
