@@ -86,9 +86,7 @@ const Navbar = () => {
               </button>
             </li>
             <li>
-              <a className={`${style.mobileNav__btn} ${style.btn} ${style.btncolor}`} href="">
-                Resume
-              </a>
+              <a href="./veeresh's ( CV ).pdf" target='_blanck' download={true} className={style.btn}>Resume</a>
             </li>
           </ul>
         </nav>
