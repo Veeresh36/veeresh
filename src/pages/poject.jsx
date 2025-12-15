@@ -10,8 +10,8 @@ let projects = [
     title: <>Full-Stack Web Application Project <span className='text-warning'>(FYNTRA)</span></>,
     description: 'A full-stack application built with modern standards, reusable components, and optimized performance.',
     image: p1,
-    viewPro: "https://fyntra-five.vercel.app/",
-    getcode: "https://github.com/Veeresh36/fyntra"
+    viewPro: "https://github.com/Veeresh36/FYNTRA",
+    getcode: "https://fyntra-iota.vercel.app/"
   },
   {
     title: <>DAILY ROUTINE APP <span className="text-primary">(NOTED)</span></>,
