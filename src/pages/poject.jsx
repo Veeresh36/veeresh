@@ -10,14 +10,14 @@ let projects = [
     title: <>Full-Stack Web Application Project <span className='text-warning'>(FYNTRA)</span></>,
     description: 'A full-stack application built with modern standards, reusable components, and optimized performance.',
     image: p1,
-    viewPro: "https://github.com/Veeresh36/FYNTRA",
+    viewPros: "https://github.com/Veeresh36/FYNTRA",
     getcode: "https://fyntra-iota.vercel.app/"
   },
   {
     title: <>DAILY ROUTINE APP <span className="text-primary">(NOTED)</span></>,
     description: 'A modern routine management app with task tracking and clean user experience.',
     image: p3,
-    viewPro: "https://todo-app-mu-amber-38.vercel.app/",
+    viewPros: "https://todo-app-mu-amber-38.vercel.app/",
     getcode: "https://github.com/Veeresh36/Todo-app"
   }
 ];
@@ -59,7 +59,7 @@ const Project = () => {
                             <h4>{item.title}</h4>
                             <p>{item.description}</p>
                             <div className={style.btns}>
-                              <a className={`btn btn-dark cursor-pointer ${style.link}`} target='_blank' href={item.viewPro}>
+                              <a className={`btn btn-dark cursor-pointer ${style.link}`} target='_blank' href={item.viewPros}>
                                 View Project
                                 <i className="fa-solid fa-arrow-right"></i>
                               </a>
